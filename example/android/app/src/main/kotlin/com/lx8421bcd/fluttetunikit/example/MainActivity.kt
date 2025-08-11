@@ -1,4 +1,4 @@
-package com.lx8421bcd.fluttetunikit.example.example
+package com.lx8421bcd.fluttetunikit.example
 
 import io.flutter.embedding.android.FlutterActivity
 

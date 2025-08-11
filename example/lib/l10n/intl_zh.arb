@@ -1,0 +1,35 @@
+{
+  "@@locale": "zh",
+  "switchLocalizationTest": "切换语言",
+  "messageTest": "{count, plural, zero {暂无新消息} one {您有一条新消息} other {{count}条新消息未读}}",
+  "currentLocalTest": "当前语言：{locale} 国家代码：{countryCode}",
+  "dateTimeTest": "日期: {date} 时间: {time}",
+  "@dateTimeTest": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yyyy-MM-dd EEE",
+        "isCustomDateFormat": "true"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "HH:mm:ss",
+        "isCustomDateFormat": "true"
+      }
+    }
+  },
+  "roleTest": "{role, select, admin {Hi 管理员!} manager {Hi 操作者!} other {Hi 访问者!}}",
+  "genderTest": "{gender, select, male {Hi 先生!} female {Hi 女士!} other {Hi!}}",
+
+  "@@_baseCode": "通用命名",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "submit": "Submit",
+  "loading": "Loading",
+  "alert": "Alert",
+  "attention": "Attention",
+  "use": "Use",
+  "search": "Search",
+  "clear": "Clear"
+}

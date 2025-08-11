@@ -1,0 +1,38 @@
+{
+  "@@locale": "en",
+
+  "@@_testCodeExampleStart": "测试代码",
+  "switchLocalizationTest": "Switch language",
+  "messageTest": "{count, plural, zero {no messages} one {You have one message.} other {{count} messages unread}}",
+  "currentLocalTest": "current language：{locale} country code: {countryCode}",
+  "dateTimeTest": "Date: {date} Time: {time}",
+  "@dateTimeTest": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yyyy-MM-dd EEE",
+        "isCustomDateFormat": "true"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "HH:mm:ss",
+        "isCustomDateFormat": "true"
+      }
+    }
+  },
+  "roleTest": "{role, select, admin {Hi admin!} manager {Hi manager!} other {Hi visitor!}}",
+  "genderTest": "{gender, select, male {Hi man!} female {Hi woman!} other {Hi there!}}",
+
+  "@@_baseCode": "通用命名",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "submit": "Submit",
+  "loading": "Loading",
+  "alert": "Alert",
+  "attention": "Attention",
+  "use": "Use",
+  "search": "Search",
+  "clear": "Clear"
+
+}

@@ -30,9 +30,34 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_uni_kit:
+    path: ../
+  get:
+  logger: ^2.0.2
+  hive:
+  hive_flutter:
+  dio: ^5.3.3
+  flutter_screenutil: ^5.9.0
+  permission_handler:
+  flutter_local_notifications: ^18.0.1
+  flutter_easyloading: ^3.0.5
+  cached_network_image: ^3.3.0
+  image_picker:
+  photo_view: ^0.15.0
+  gal: ^2.3.1
+  path_provider: ^2.1.1
+  share_plus: 10.0.2 # 此库7.1.0～7.2.1存在kotlin编译冲突，请勿升级至相关版本
+  flutter_constraintlayout: ^1.7.0-stable
+  device_info_plus:
+  flutter_image_compress: ^2.1.0
+  image:
+  flutter_localizations:
+    sdk: flutter
+  flutter_localized_locales:
+  intl: any
+  camera: ^0.11.0+2
+  dotted_border: ^2.1.0
+  easy_refresh: ^3.3.5
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
@@ -45,6 +70,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  build_runner:
+  flutter_gen_runner:
+  json_serializable: ^6.7.1
+  path: ^1.8.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -67,6 +96,8 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package
+  assets:
+    - assets/images/
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -87,3 +118,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
