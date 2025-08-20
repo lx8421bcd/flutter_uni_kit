@@ -36,6 +36,7 @@ dependencies:
   image:
   uuid:
   flutter_image_compress: ^2.1.0
+  azlistview_plus: ^3.0.0
 
 dev_dependencies:
   flutter_test:

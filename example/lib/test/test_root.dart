@@ -1,3 +1,4 @@
+import 'package:example/test/form_test.dart';
 import 'package:example/themes/app_colors.dart';
 import 'package:example/test/button_style_test.dart';
 import 'package:example/test/device_function_test.dart';
@@ -138,6 +139,14 @@ class _TestRootPageState extends State<StatefulWidget> with RestorationMixin {
         container: drawerItems,
         currentIndexGetter: () => _selectedIndex.value,
         pageBuilder: () => const DeviceFunctionTestPage(),
+        onItemTapped: (index) {
+          _onItemTapped(index);
+        }));
+    drawerItems.add(_DrawerItem(
+        name: "Form test",
+        container: drawerItems,
+        currentIndexGetter: () => _selectedIndex.value,
+        pageBuilder: () => const FormTestPage(),
         onItemTapped: (index) {
           _onItemTapped(index);
         }));
