@@ -29,6 +29,7 @@
 
 * [alerts](lib/alerts): 常见样式Alert弹窗， 包括Toast、AlertDialog、BottomAlertDialog、PopupWindow
 * [dialogs](lib/dialogs)：dialog封装，可将Widget以Dialog形式展示
+* [form](lib/form)：一种类类似于antd的form的表单封装，包含常用的文本，手机号，邮件，日期选择等表单组件，支持自定义校验规则
 * [image_picker_dialog.dart](lib/dialogs/image_picker_dialog.dart)：图片选择弹窗，BottomAlertDialog样式
 * [theme](lib/theme)：Theme管理，Theme切换，浅色/暗色模式切换管理
 * [event_bus.dart](lib/event/event_bus.dart): 事件总线，通用应用内低耦合事件广播方式
