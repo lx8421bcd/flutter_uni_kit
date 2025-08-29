@@ -25,11 +25,11 @@
 
 本项目提供以下功能
 
-常用模块：
+#### 常用模块：
 
 * [alerts](lib/alerts): 常见样式Alert弹窗， 包括Toast、AlertDialog、BottomAlertDialog、PopupWindow
 * [dialogs](lib/dialogs)：dialog封装，可将Widget以Dialog形式展示
-* [form](lib/form)：一种类类似于antd的form的表单封装，包含常用的文本，手机号，邮件，日期选择等表单组件，支持自定义校验规则
+* [form](lib/form)：一种类似于antd的form的表单封装，包含常用的文本，手机号，邮件，日期选择等表单组件，支持自定义校验规则
 * [image_picker_dialog.dart](lib/dialogs/image_picker_dialog.dart)：图片选择弹窗，BottomAlertDialog样式
 * [theme](lib/theme)：Theme管理，Theme切换，浅色/暗色模式切换管理
 * [event_bus.dart](lib/event/event_bus.dart): 事件总线，通用应用内低耦合事件广播方式
@@ -41,7 +41,7 @@
 * [log.dart](lib/common/log.dart)：日志管理，基于Logger封装的日志打印功能
 * [app_settings.dart](lib/app_settings.dart)：全局设置缓存，基于Hive封装
 
-自定义组件封装
+#### 自定义组件封装
 
 * [auto_hide_keyboard.dart](lib/widgets/auto_hide_keyboard.dart) 点击外部自动隐藏软键盘组件
 * [border_button.dart](lib/widgets/border_button.dart) 边框按钮
@@ -58,7 +58,7 @@
 * [wheel_view.dart](lib/widgets/wheel_view.dart) 滚轮单选组件
 * [wheel_datetime_picker.dart](lib/widgets/wheel_datetime_picker.dart) 基于滚轮的时间日期选择组件
 
-常用功能封装
+#### 常用功能封装
 
 * [datetime_functions.dart](lib/common/datetime_functions.dart)：时间日期相关封装，获取今日0时，时间日期格式转换等功能
 * [image_compress.dart](lib/common/image_compress.dart)：图片压缩封装，基于尺寸压缩至指定大小，基于质量压缩至指定大小，复合压缩的功能
